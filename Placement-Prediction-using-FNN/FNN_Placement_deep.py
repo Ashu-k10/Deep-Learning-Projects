@@ -139,6 +139,58 @@ print(Y_prob[:5])
 # 8. Graphical Representation
 ######################################
 
+# Actual vs Predicted Placement
+plt.figure(figsize=(8,5))
+
+plt.plot(range(len(Y_test)), Y_test.values,
+         marker='o', label='Actual')
+
+plt.plot(range(len(y_pred)), y_pred,
+         marker='x', label='Predicted')
+
+plt.xlabel("Student Index")
+plt.ylabel("Placement (0 = Not Placed, 1 = Placed)")
+plt.title("Actual vs Predicted Placement")
+plt.legend()
+plt.grid(True)
+plt.show()
+
+
+# Confusion Matrix Graph
+plt.figure(figsize=(6,5))
+
+plt.imshow(cm, interpolation='nearest')
+plt.title("Confusion Matrix")
+plt.colorbar()
+
+plt.xticks([0, 1], ['Not Placed', 'Placed'])
+plt.yticks([0, 1], ['Not Placed', 'Placed'])
+
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+
+# Display values inside the matrix
+for i in range(2):
+    for j in range(2):
+        plt.text(j, i, cm[i, j],
+                 ha="center",
+                 va="center")
+
+plt.show()
+
+
+# Prediction Probability Graph
+plt.figure(figsize=(8,5))
+
+plt.plot(range(len(Y_prob)),
+         Y_prob[:, 1],
+         marker='o')
+
+plt.xlabel("Student Index")
+plt.ylabel("Probability of Placement")
+plt.title("Placement Prediction Probability")
+plt.grid(True)
+plt.show()
 
 #############################
 # 9. Model preserve
