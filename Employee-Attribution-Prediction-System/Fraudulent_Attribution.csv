@@ -1,0 +1,6 @@
+Age,MonthlyIncome,YearsAtCompany,TotalWorkingYears,DistanceFromHome,JobSatisfaction,WorkLifeBalance,OverTime,NumCompaniesWorked,TrainingTimesLastYear,Attrition
+25,3000,1,2,15,2,2,Yes,2,2,Yes
+35,7000,7,10,5,4,4,No,1,4,No
+29,4000,3,5,20,2,2,Yes,3,2,Yes
+42,9000,12,18,4,4,4,No,2,5,No
+31,5000,2,7,25,1,2,Yes,4,1,Yes
