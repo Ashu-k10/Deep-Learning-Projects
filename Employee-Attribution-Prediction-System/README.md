@@ -757,7 +757,7 @@ This project demonstrates the following Machine Learning and Deep Learning conce
 
 **Ashutosh Kadu**
 
-Deep Learning Assignment  
+Deep Learning  
 Employee Attrition Prediction using MLPClassifier
 
 ---
