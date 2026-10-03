@@ -451,20 +451,6 @@ The current source implements a straightforward **Embedding → LSTM → Dense/S
 
 ---
 
-## 💼 Resume Description
-
-**Movie Review Sentiment Analysis using LSTM**
-
-> Built an LSTM-based deep learning model for binary sentiment classification of IMDB movie reviews. Preprocessed encoded review sequences using fixed-length padding, represented words using an Embedding layer, and designed an LSTM-based architecture with a sigmoid output for positive/negative sentiment prediction. Trained the model using Adam optimization and binary cross-entropy loss.
-
-### Resume Tech Stack
-
-```text
-Python | TensorFlow | Keras | LSTM | NLP | Deep Learning
-```
-
----
-
 ## ⭐ Project Highlights
 
 - Implemented an **LSTM-based NLP classifier**
