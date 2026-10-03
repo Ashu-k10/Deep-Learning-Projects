@@ -349,7 +349,7 @@ Through this project, you can learn:
 
 **Ashutosh Kadu**
 
-Engineering Student | Machine Learning | Python | Full Stack Development
+Engineering Student | Machine Learning | Python | Neural Network
 
 ---
 
